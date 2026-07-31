@@ -1,81 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Contact Us | Turbo Supply Chain</title>
- <link rel="stylesheet" href="./style.css?=v1.1.3">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Turbo Supply Chain</title>
+<link rel="stylesheet" href="./style.css?=v1.1.4">
 </head>
 <body>
- <!-- NAVBAR -->
- <header>
- <div class="logo">🚢 Turbo Supply Chain</div>
- <nav>
- <a href="index.html">Home</a>
- <a href="#">Services</a>
- <a href="#">International</a>
- <a href="#">Air & Sea Freight</a>
- <a href="#">Cross-Border Logistics</a>
- <a href="#">Quote</a>
- <a href="contact.html">Contact Us</a>
- <a href="zh.html" class="lang-switch">🌐 中文</a>
- </nav>
- </header>
+<!-- NAVBAR -->
+<header>
+<div class="logo">🚢 Turbo Supply Chain</div>
+<nav>
+<a href="index.html">Home</a>
+<a href="#">Services</a>
+<a href="#">International</a>
+<a href="#">Air & Sea Freight</a>
+<a href="#">Cross-Border Logistics</a>
+<a href="#">Quote</a>
+<a href="contact.html">Contact Us</a>
+<a href="zh.html" class="lang-switch">🌐 中文</a>
+</nav>
+</header>
 
- <!-- HERO SECTION -->
- <section class="hero">
- <h1>Contact Our Logistics Team</h1>
- <p>Get in touch for customized shipping and supply chain solutions from China.</p>
- </section>
+<!-- HERO SECTION -->
+<section class="hero">
+<h1>Contact Our Logistics Team</h1>
+<p>Get in touch for customized shipping and supply chain solutions from China.</p>
+</section>
 
- <!-- CONTACT DETAILS & FORM -->
- <section class="help-section">
- <div class="help-container">
- <!-- Address & WhatsApp Card -->
- <div class="help-card">
- <h3>📍 Office Address</h3>
- <p style="color: #444; margin-bottom: 1.5rem; line-height: 1.6;">
- <strong>Shenzhen Turbo Trading Company Ltd.</strong><br>
- 10H, Unit 1, Times Center, No. 102, Zhongxin Road, Shangxing Community, Bao'an District, Shenzhen, China<br>
- <strong>Zip Code:</strong> 518125
- </p>
- 
- <h3>💬 WhatsApp Support</h3>
- <p style="margin-bottom: 1.5rem;">
- <a href="https://wa.me" target="_blank" style="color: #f28c28; text-decoration: none; font-weight: bold; font-size: 1.2rem;">
- +852 5807 1002
- </a>
- </p>
- <h3>✉ Email Support</h3>
- <p style="color: #444;">info@turbosupplychain.com</p>
- </div>
-
- <!-- Inquiry Form -->
+<!-- CONTACT DETAILS & FORM -->
+<section class="help-section">
+<div class="help-container">
+<!-- Address & WhatsApp Card -->
 <div class="help-card">
- <h3>✉ Send Us A Message</h3>
- <form id="contact-form" action="https://formsubmit.co" method="POST" style="display: flex; flex-direction: column; gap: 12px; text-align: left; margin-top: 1rem;">
-   <input type="text" name="Name" placeholder="Your Name" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
-   <input type="email" name="Email" placeholder="Email Address" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
-   <textarea name="Cargo Details" placeholder="Tell us about your cargo details (Weight, Volume, Destination...)" rows="4" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit;"></textarea>
-   
-   <!-- FIXED: Changed type="submit" to type="button" with an explicit window submission bypass trigger -->
-   <button type="button" class="btn-orange" onclick="document.getElementById('contact-form').submit();" style="border: none; cursor: pointer; padding: 12px;">Submit Inquiry</button>
- </form>
+<h3>📍 Office Address</h3>
+<p style="color: #444; margin-bottom: 1.5rem; line-height: 1.6;">
+<strong>Shenzhen Turbo Trading Company Ltd.</strong><br>
+10H, Unit 1, Times Center, No. 102, Zhongxin Road, Shangxing Community, Bao'an District, Shenzhen, China<br>
+<strong>Zip Code:</strong> 518125
+</p>
+<h3>💬 WhatsApp Support</h3>
+<p style="margin-bottom: 1.5rem;">
+<a href="https://wa.me" target="_blank" style="color: #f28c28; text-decoration: none; font-weight: bold; font-size: 1.2rem;">
++852 5807 1002
+</a>
+</p>
+<h3>✉ Email Support</h3>
+<p style="color: #444;">info@turbosupplychain.com</p>
 </div>
- </section>
 
- <!-- FOOTER -->
- <footer>
- <p><strong>Turbo Supply Chain</strong></p>
- <p>Shenzhen Turbo Trading Company Ltd.</p>
- <p style="font-size: 0.85rem; opacity: 0.8; margin-top: 0.5rem; margin-bottom: 1rem; padding: 0 10%;">
- 📍 10H, Unit 1, Times Center, No. 102, Zhongxin Road, Shangxing Community, Bao'an District, Shenzhen, China
- </p>
- <div class="footer-links">
- <a href="https://wa.me" target="_blank">WhatsApp</a> | 
- <a href="#wechat-modal">WeChat</a> |
- <a href="index.html?=v1.1.3">Home</a>
- </div>
- </footer>
+<!-- Inquiry Form -->
+<div class="help-card">
+<h3>✉ Send Us A Message</h3>
+<div style="display: flex; flex-direction: column; gap: 12px; text-align: left; margin-top: 1rem;">
+ <input type="text" id="form-input-name" placeholder="Your Name" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+ <input type="email" id="form-input-email" placeholder="Email Address" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+ <textarea id="form-input-msg" placeholder="Tell us about your cargo details (Weight, Volume, Destination...)" rows="4" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit;"></textarea>
+ <button type="button" class="btn-orange" onclick="sendViaClientMail();" style="border: none; cursor: pointer; padding: 12px;">Submit Inquiry</button>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p><strong>Turbo Supply Chain</strong></p>
+<p>Shenzhen Turbo Trading Company Ltd.</p>
+<p style="font-size: 0.85rem; opacity: 0.8; margin-top: 0.5rem; margin-bottom: 1rem; padding: 0 10%;">
+📍 10H, Unit 1, Times Center, No. 102, Zhongxin Road, Shangxing Community, Bao'an District, Shenzhen, China
+</p>
+<div class="footer-links">
+<a href="https://wa.me" target="_blank">WhatsApp</a> | 
+<a href="#wechat-modal">WeChat</a> |
+<a href="index.html?=v1.1.4">Home</a>
+</div>
+</footer>
+<script src="./script.js?=v1.1.4"></script>
 </body>
 </html>
