@@ -1,137 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Turbo Supply Chain</title>
- <link rel="stylesheet" href="./style.css?=v1.1.4">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turbo Supply Chain</title>
+    <link rel="stylesheet" href="./style.css?=v1.2">
 </head>
 <body>
- <!-- NAVIGATION HEADER -->
- <header>
- <div class="logo">🚢 <span data-i18n="nav_logo">Turbo Supply Chain</span></div>
- <nav>
- <a href="#" id="home-nav-link" data-i18n="nav_home">Home</a>
- <a href="#" data-i18n="nav_services">Services</a>
- <a href="#" data-i18n="nav_international">International</a>
- <a href="#" data-i18n="nav_freight">Air & Sea Freight</a>
- <a href="#" data-i18n="nav_crossborder">Cross-Border Logistics</a>
- <a href="#" id="contact-nav-link" data-i18n="nav_contact">Contact Us</a>
- <button id="lang-toggle" class="lang-switch">🌐 中文</button>
- </nav>
- </header>
 
- <!-- MAIN HOME VIEW CONTENT ZONE -->
- <main id="home-view">
- <!-- HERO SECTION -->
- <section class="hero">
- <h1 data-i18n="hero_title">China-to-Global<br>Logistics & Supply Chain Solutions</h1>
- <p data-i18n="hero_subtitle">Reliable shipping services from China to destinations Worldwide</p>
- <p class="sub-services" data-i18n="hero_tags">Ocean Freight | Air Freight | Door-to-Door Delivery | China Sourcing</p>
- <div class="button-container">
- <a href="#" id="hero-quote-btn" class="btn-freight" data-i18n="btn_quote">Get Freight Quote</a>
- <a href="https://wa.me" target="_blank" class="btn-whatsapp" data-i18n="btn_whatsapp">WhatsApp Us</a>
- <a href="#wechat-modal" class="btn-wechat" data-i18n="btn_wechat">WeChat Us</a>
- </div>
- </section>
+    <!-- NAVIGATION HEADER -->
+    <header>
+        <div class="logo">🚢 <span data-i18n="nav_logo">Turbo Supply Chain</span></div>
+        <nav>
+            <a href="#" id="home-nav-link" data-i18n="nav_home">Home</a>
+            <a href="#" data-i18n="nav_services">Services</a>
+            <a href="#" data-i18n="nav_international">International</a>
+            <a href="#" data-i18n="nav_freight">Air & Sea Freight</a>
+            <a href="#" data-i18n="nav_crossborder">Cross-Border Logistics</a>
+            <a href="#" id="contact-nav-link" data-i18n="nav_contact">Contact Us</a>
+            <!-- Language Toggle Button -->
+            <button id="lang-toggle" class="lang-switch">🌐 中文</button>
+        </nav>
+    </header>
 
- <!-- HELP TARGETS SECTION -->
- <section class="help-section">
- <h2 data-i18n="help_heading">How Can We Help You?</h2>
- <div class="help-container">
- <div class="help-card">
- <h3 data-i18n="card_biz_title">🏢 Business Shipping</h3>
- <p data-i18n="card_biz_desc">For importers, wholesalers, retailers and companies.</p>
- <ul>
- <li data-i18n="li_biz_1">Ocean Freight</li>
- <li data-i18n="li_biz_2">Supply Chain</li>
- <li data-i18n="li_biz_3">Supplier Coordination</li>
- <li data-i18n="li_biz_4">Export Support</li>
- </ul>
- </div>
- <div class="help-card">
- <h3 data-i18n="card_pers_title">🏠 Personal Shipping</h3>
- <p data-i18n="card_pers_desc">For individuals shipping products from China overseas.</p>
- <ul>
- <li data-i18n="li_pers_1">Furniture Shipping</li>
- <li data-i18n="li_pers_2">Personal Cargo</li>
- <li data-i18n="li_pers_3">Door Delivery</li>
- <li data-i18n="li_pers_4">Home Products</li>
- </ul>
- </div>
- </div>
- </section>
- </main>
+    <!-- MAIN HOME VIEW CONTENT ZONE -->
+    <main id="home-view">
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <h1 data-i18n="hero_title">China-to-Global<br>Logistics & Supply Chain Solutions</h1>
+            <p data-i18n="hero_subtitle">Reliable shipping services from China to destinations Worldwide</p>
+            <p class="sub-services" data-i18n="hero_tags">Ocean Freight | Air Freight | Door-to-Door Delivery | China Sourcing</p>
+            <div class="button-container">
+                <a href="#" id="hero-quote-btn" class="btn-freight" data-i18n="btn_quote">Get Freight Quote</a>
+                <a href="https://wa.me" target="_blank" class="btn-whatsapp" data-i18n="btn_whatsapp">WhatsApp Us</a>
+                <a href="#wechat-modal" class="btn-wechat" data-i18n="btn_wechat">WeChat Us</a>
+            </div>
+        </section>
 
- <!-- DYNAMIC CONTACT US VIEW CONTENT ZONE -->
- <section id="contact-view" class="help-section" style="display: none; padding-top: 2rem;">
- <h2 style="text-align: center; margin-bottom: 2rem;" data-i18n="contact_view_title">Contact Our Logistics Team</h2>
- <div class="help-container">
- <!-- Office Card -->
- <div class="help-card">
- <h3 data-i18n="contact_info_heading">📍 Office Address</h3>
- <p style="color: #444; margin-bottom: 1.5rem; line-height: 1.6;" data-i18n="contact_address">
- <strong>Shenzhen Turbo Trading Company Ltd.</strong><br>
- 10H, Unit 1, Times Center, No. 102, Zhongxin Road, Shangxing Community, Bao'an District, Shenzhen, China<br>
- <strong>Zip Code:</strong> 518125
- </p>
- <h3 data-i18n="contact_wa_heading">💬 WhatsApp Support</h3>
- <p style="margin-bottom: 1.5rem;">
- <a href="https://wa.me" target="_blank" style="color: #f28c28; text-decoration: none; font-weight: bold; font-size: 1.2rem; display: inline-flex; align-items: center; gap: 5px;">
- +852 5807 1002 ↗
- </a>
- </p>
- <h3 data-i18n="contact_wc_heading">📱 WeChat Contact</h3>
- <p style="margin-bottom: 1.5rem;">
- <a href="#wechat-modal" style="color: #1aad19; text-decoration: none; font-weight: bold; font-size: 1.2rem; display: inline-flex; align-items: center; gap: 5px;">
- <span data-i18n="contact_wc_btn_text">Click to Connect on WeChat ↗</span>
- </a>
- </p>
- <h3>✉ Email</h3>
- <p style="color: #444; font-weight: bold; font-size: 1.1rem; margin-top: 0.5rem;">info@5turbo.uk</p>
- </div>
+        <!-- HELP TARGETS SECTION -->
+        <section class="help-section">
+            <h2 data-i18n="help_heading">How Can We Help You?</h2>
+            <div class="help-container">
+                <div class="help-card">
+                    <h3 data-i18n="card_biz_title">🏢 Business Shipping</h3>
+                    <p data-i18n="card_biz_desc">For importers, wholesalers, retailers and companies.</p>
+                    <ul>
+                        <li data-i18n="li_biz_1">Ocean Freight</li>
+                        <li data-i18n="li_biz_2">Supply Chain</li>
+                        <li data-i18n="li_biz_3">Supplier Coordination</li>
+                        <li data-i18n="li_biz_4">Export Support</li>
+                    </ul>
+                </div>
+                <div class="help-card">
+                    <h3 data-i18n="card_pers_title">🏠 Personal Shipping</h3>
+                    <p data-i18n="card_pers_desc">For individuals shipping products from China overseas.</p>
+                    <ul>
+                        <li data-i18n="li_pers_1">Furniture Shipping</li>
+                        <li data-i18n="li_pers_2">Personal Cargo</li>
+                        <li data-i18n="li_pers_3">Door Delivery</li>
+                        <li data-i18n="li_pers_4">Home Products</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
 
- <!-- Inquiry Submission Form -->
- <div class="help-card">
- <h3 data-i18n="form_heading">Send Us A Message</h3>
- <div style="display: flex; flex-direction: column; gap: 12px; text-align: left; margin-top: 1rem;">
- <input type="text" id="form-input-name" placeholder="Your Name" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
- <input type="email" id="form-input-email" placeholder="Email Address" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
- <textarea id="form-input-msg" placeholder="Cargo details (Weight, Volume, Destination...)" rows="4" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit;"></textarea>
- <button type="button" class="btn-orange" onclick="sendViaClientMail();" style="border: none; cursor: pointer; padding: 12px;" data-i18n="form_btn">Submit Inquiry</button>
- </div>
- </div>
- </div>
- </section>
+    <!-- DYNAMIC CONTACT US VIEW CONTENT ZONE -->
+    <section id="contact-view" class="help-section" style="display: none; padding-top: 2rem;">
+        <h2 style="text-align: center; margin-bottom: 2rem;" data-i18n="contact_view_title">Contact Our Logistics Team</h2>
+        <div class="help-container">
+            <!-- Office Card -->
+            <div class="help-card">
+                <h3 data-i18n="contact_info_heading">📍 Office Address</h3>
+                <p style="color: #444; margin-bottom: 1.5rem; line-height: 1.6;" data-i18n="contact_address">
+                    <strong>Shenzhen Turbo Trading Company Ltd.</strong><br>
+                    10H, Unit 1, Times Center, No. 102, Zhongxin Road, Shangxing Community, Bao'an District, Shenzhen, China<br>
+                    <strong>Zip Code:</strong> 518125
+                </p>
+                
+                <h3 data-i18n="contact_wa_heading">💬 WhatsApp Support</h3>
+                <p style="margin-bottom: 1.5rem;">
+                    <a href="https://wa.me" target="_blank" style="color: #f28c28; text-decoration: none; font-weight: bold; font-size: 1.2rem; display: inline-flex; align-items: center; gap: 5px;">
+                        +852 5807 1002 ↗
+                    </a>
+                </p>
 
- <!-- FOOTER -->
- <footer>
- <p><strong data-i18n="footer_company">Turbo Supply Chain</strong></p>
- <p data-i18n="footer_legal">Shenzhen Turbo Trading Company Ltd.</p>
- <p id="footer-address" style="font-size: 0.85rem; opacity: 0.8; margin-top: 0.5rem; margin-bottom: 1rem; padding: 0 10%;" data-i18n="footer_addr_text">
- 📍 Address: 10H, Unit 1, Times Center, No. 102, Zhongxin Road, Shangxing Community, Bao'an District, Shenzhen, China, Zip Code: 518125
- </p>
- <div class="footer-links">
- <a href="https://wa.me" target="_blank">WhatsApp</a> | 
- <a href="#wechat-modal">WeChat</a> |
- <a href="#" id="footer-contact-link" data-i18n="footer_contact_btn">Contact Us</a>
- </div>
- </footer>
+                <h3 data-i18n="contact_wc_heading">📱 WeChat Contact</h3>
+                <p style="margin-bottom: 1.5rem;">
+                    <a href="#wechat-modal" style="color: #1aad19; text-decoration: none; font-weight: bold; font-size: 1.2rem; display: inline-flex; align-items: center; gap: 5px;">
+                        <span data-i18n="contact_wc_btn_text">Click to Connect on WeChat ↗</span>
+                    </a>
+                </p>
 
- <!-- WECHAT MODAL -->
- <div id="wechat-modal" class="modal">
- <div class="modal-content">
- <a href="#" class="close-btn">&times;</a>
- <h3 style="color: #0b2240; margin-bottom: 0.5rem;" data-i18n="modal_title">Scan WeChat QR Code</h3>
- <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;"><span data-i18n="modal_id_text">WeChat ID:</span> <strong>Turbo-Trading</strong></p>
- <p style="color: #666; font-size: 0.9rem; margin-bottom: 1rem;"><span data-i18n="modal_num_text">WeChat Number:</span> <strong>+86 18948312064</strong></p>
- <div class="wechat-qr">
- <img src="assets/image/other/qr-placeholder.png" alt="WeChat QR Code" style="width:100%; height:100%; display:block; object-fit:contain; border-radius:4px;">
- </div>
- <a href="#" class="btn-orange" style="padding: 0.5rem 1rem; font-size: 0.85rem; margin-top: 0.5rem;" data-i18n="modal_close">Close</a>
- </div>
- </div>
+                <h3>✉️ Email</h3>
+                <p style="color: #444; font-weight: bold; font-size: 1.1rem; margin-top: 0.5rem;">info@5turbo.uk</p>
+            </div>
 
- <script src="./script.js?=v1.1.4"></script>
+            <!-- Inquiry Submission Form -->
+            <div class="help-card">
+                <h3 data-i18n="form_heading">Send Us A Message</h3>
+                <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 12px; text-align: left; margin-top: 1rem;">
+                    <input type="text" id="form-input-name" placeholder="Your Name" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                    <input type="email" id="form-input-email" placeholder="Email Address" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                    <textarea id="form-input-msg" placeholder="Cargo details (Weight, Volume, Destination...)" rows="4" required style="padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit;"></textarea>
+                    <button type="submit" class="btn-orange" style="border: none; cursor: pointer; padding: 12px;" data-i18n="form_btn">Submit Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p><strong data-i18n="footer_company">Turbo Supply Chain</strong></p>
+        <p data-i18n="footer_legal">Shenzhen Turbo Trading Company Ltd.</p>
+        <p id="footer-address" style="font-size: 0.85rem; opacity: 0.8; margin-top: 0.5rem; margin-bottom: 1rem; padding: 0 10%;" data-i18n="footer_addr_text">
+            📍 Address: 10H, Unit 1, Times Center, No. 102, Zhongxin Road, Shangxing Community, Bao'an District, Shenzhen, China, Zip Code: 518125
+        </p>
+        <div class="footer-links">
+            <a href="https://wa.me" target="_blank">WhatsApp</a> | 
+            <a href="#wechat-modal">WeChat</a> |
+            <a href="#" id="footer-contact-link" data-i18n="footer_contact_btn">Contact Us</a>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE UNIFIED WECHAT POP-UP MODAL -->
+    <div id="wechat-modal" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <h3 style="color: #0b2240; margin-bottom: 0.5rem;" data-i18n="modal_title">Scan WeChat QR Code</h3>
+            <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.5rem;"><span data-i18n="modal_id_text">WeChat ID:</span> <strong>Turbo-Trading</strong></p>
+            <p style="color: #666; font-size: 0.9rem; margin-bottom: 1rem;"><span data-i18n="modal_num_text">WeChat Number:</span> <strong>+86 18948312064</strong></p>
+            <div class="wechat-qr">
+                <img src="assets/image/other/qr-placeholder.png" alt="WeChat QR Code" style="width:100%; height:100%; display:block; object-fit:contain; border-radius:4px;">
+            </div>
+            <a href="#" class="btn-orange" style="padding: 0.5rem 1rem; font-size: 0.85rem; margin-top: 0.5rem;" data-i18n="modal_close">Close</a>
+        </div>
+    </div>
+
+    <!-- TRANSLATION ENGINE & ROUTER SCRIPT -->
+    <script src="./script.js?=v1.2"></script>
 </body>
 </html>
